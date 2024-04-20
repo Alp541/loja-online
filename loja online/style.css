@@ -1,0 +1,97 @@
+#navbarSupportedContent .nav-link {
+    color: rgb(246, 246, 246); /
+}
+.form1{
+    
+    padding: 20px ;
+    margin: 40px ;
+}
+h1{
+    
+    max-width: 20vh;
+    display:inline-block ;
+}
+.imagens{
+    background-color: aqua;
+    max-width: 100vh;
+padding: 40px  ;
+
+margin: 100px;
+}
+.img1{
+    width: 20vh;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+.ps {
+    color: red;
+}
+
+.Xbox{
+    color: red;
+}
+.iphone{
+    color: red;
+}
+
+
+
+@media (max-width: 767px) {
+    /* Estilos específicos para dispositivos móveis */
+    .card {
+        width: 100%; /* Defina a largura da carta como 100% para preencher a largura do dispositivo móvel */
+        margin-bottom: 30px ; /* Adicione algum espaço entre as cartas */
+        padding:10px;
+    }
+
+    .h-80 {
+        height: auto; /* Defina a altura da carta como automática para ajustar o conteúdo */
+    }
+}
+@media (min-width: 992px) {
+    /* Estilos para desktops com largura de tela igual ou superior a 992 pixels */
+    .form1 {
+      max-width: 900px; /* Definindo a largura máxima do formulário para desktops */
+      margin: 0 auto; /* Centralizando o formulário na página */
+      padding: 20px; /* Adicionando um espaçamento interno ao formulário */
+    }
+    @media (min-width: 768px) {
+        /* Adicione estilos específicos para telas de desktop aqui */
+        .container {
+          max-width: 960px; /* Define a largura máxima da container para telas de desktop */
+          margin: 0 auto; /* Centraliza a container horizontalmente na tela */
+        }
+      
+        .form1 {
+          /* Ajusta o estilo do formulário para telas de desktop */
+          max-width: 500px; /* Define a largura máxima do formulário */
+          margin: 0 auto; /* Centraliza o formulário horizontalmente na tela */
+        }
+      
+        /* Exemplo de estilos para outros elementos */
+        .navbar {
+          /* Estilos para a barra de navegação */
+          background-color: #333; /* Cor de fundo */
+          padding: 10px 0; /* Espaçamento interno */
+          color: #fff; /* Cor do texto */
+        }
+      
+        .navbar-brand {
+          /* Estilos para o logotipo/texto da barra de navegação */
+          font-size: 24px; /* Tamanho da fonte */
+        }
+      
+        .nav-link {
+          /* Estilos para os links da barra de navegação */
+          color: #fff; /* Cor do texto */
+          font-size: 18px; /* Tamanho da fonte */
+          margin-right: 20px; /* Espaçamento à direita entre os links */
+        }
+      }

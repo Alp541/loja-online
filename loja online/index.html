@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Produtos</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body class="">
+    <nav class="navbar navbar-expand-lg bg-black">
+      <div class="container-fluid">
+        <a class="navbar-brand text-light" href="#">Store</a>
+        <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Minha conta</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+               Produtos
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Todos</a></li>
+                <li><a class="dropdown-item" href="#">Lançamentos</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Em breve</a>
+                </li>
+              </ul>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Bem-vindo(a)"
+              aria-label="Search"
+            />
+            <button type="button" class="btn btn-primary  custom-btn text-dark">Pesquisar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+</div>
+
+
+<div class="container mt-4">
+    <h2 class="text-center mb-4">Nossos Produtos</h2>
+    <div class="row row-cols-1 row-cols-md-2 g-5">
+        <div class="col-md-4 flex-fill">
+            <div class="card h-100">
+                <img class="ps5" src="https://cdn.awsli.com.br/600x1000/1258/1258259/produto/114293492/ps5-fat-branco-699n7j92o9.png" class="card-img-top" alt="Product 1">
+                <div class="card-body">
+                    <h5 class="card-title">Playstation5</h5>
+                    <p class="card-text">Console PlayStation 5 - PS5 - 825GB Com Leitor 1214A Seminovo</p>
+                    <h2 class="ps">R$3.590,00</h2>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+        </div>
+      
+
+        <div class="col-md-2 flex-fill  ">
+            <div class="card h-100 ">
+                <img src="https://assets.xboxservices.com/assets/fb/d2/fbd2cb56-5c25-414d-9f46-e6a164cdf5be.png?n=XBX_A-BuyBoxBGImage01-D.png" class="card-img-top" alt="Product 2">
+                <div class="card-body">
+                    <h5 class="card-title">Xbox one</h5>
+                    <p class="card-text">Console Xbox Series
+                        R$ 4.725,00 à vista com desconto Pix - Vindi
+ou 12x de R$ 541,98 com juros Cartão Hiper - Vindi
+                    </p>
+                    <h2 class="Xbox">R$ 5.250,00 </h2>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 flex-fill">
+            <div class="card h-100">
+                <img src="data:image/png;base64,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" class="card-img-top" alt="Product 3">
+                <div class="card-body">
+                    <h5 class="card-title">Iphone 15</h5>
+                    <p class="card-text">iPhone 15 Pro de 128 GB – Titânio preto</p>
+                    <h2 class="iphone">R$ 9.299,00</h2>
+                    <p>Em até 12x de R$ 774,92()
+                        R$ 8.369,10 à vista (10% de desconto</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container mt-4">
+      <form class="form1">
+        <h1 class="text-center">Acessar</h1>
+        <div class="mb-3">
+          <label for="exampleInputEmail1 " class="form-label">Seu email de login:</label>
+          <input type="email" class="form-control border-dark" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">Nunca compartilharemos seu e-mail com mais ninguém.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Senha</label>
+          <input type="password" class="form-control border-dark" id="exampleInputPassword1">
+        </div>
+    
+        <div class="mb-3">
+          <label for="dataNascimento" class="form-label">Data de Nascimento</label>
+          <input type="date" class="form-control border-dark" id="dataNascimento">
+          <button type="button" class="btn btn-primary mt-2" onclick="calcularIdade()">Calcular Idade</button>
+        </div>
+    
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input border-dark" id="confirmMaiorIdade">
+          <label class="form-check-label" for="confirmMaiorIdade">Confirmo que sou maior de idade</label>
+        </div>
+    
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input border-dark" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Lembrar-me</label>
+        </div>
+    
+        <button type="button" class="btn btn-primary" id="btnAcessar" style="display: none;">Acessar</button>
+      </form>
+    </div>
+    
+</div>
+
+
+<script>
+  // Função para calcular a idade do usuário
+  function calcularIdade() {
+    // Obtém a data de nascimento do campo de entrada
+    var dataNascimento = document.getElementById("dataNascimento").value;
+    
+    // Calcula a idade com base na data de nascimento fornecida
+    var hoje = new Date();
+    var dataNascimentoFormatada = new Date(dataNascimento);
+    var idade = hoje.getFullYear() - dataNascimentoFormatada.getFullYear();
+    var mes = hoje.getMonth() - dataNascimentoFormatada.getMonth();
+    
+    // Verifica se o usuário já fez aniversário este ano
+    if (mes < 0 || (mes === 0 && hoje.getDate() < dataNascimentoFormatada.getDate())) {
+      idade--;
+    }
+    
+    // Exibe a idade calculada
+    alert("Sua idade é: " + idade + " anos.");
+    
+    // Verifica se a idade é maior ou igual a 18 anos para ativar o botão de acessar
+    if (idade >= 18 && document.getElementById("confirmMaiorIdade").checked) {
+      document.getElementById("btnAcessar").disabled = false;
+    } else {
+      document.getElementById("btnAcessar").disabled = true;
+    }
+  }
+
+  // Função para verificar se a caixa de confirmação de idade está marcada
+  function verificarConfirmacao() {
+    if (document.getElementById("confirmMaiorIdade").checked) {
+      // Se a caixa estiver marcada, calcular a idade novamente para ativar o botão de acessar se for maior de idade
+      calcularIdade();
+    } else {
+      // Se a caixa não estiver marcada, desativar o botão de acessar
+      document.getElementById("btnAcessar").disabled = true;
+    }
+  }
+
+  // Função para verificar o acesso quando o botão de acesso é clicado
+  function verificarAcesso() {
+    // Verifica se a caixa de confirmação de idade está marcada
+    if (!document.getElementById("confirmMaiorIdade").checked) {
+      // Se a caixa de confirmação não estiver marcada, exibe uma mensagem de alerta
+      alert("Você precisa confirmar que é maior de idade para acessar.");
+    } else {
+      // Se a caixa de confirmação estiver marcada, pode prosseguir com o acesso
+      // Aqui você pode adicionar o código para enviar os dados do formulário, etc.
+      alert("Acesso permitido. Redirecionando...");
+    }
+  }
+</script>
+
+<script  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+</script>
+
+  </body>
